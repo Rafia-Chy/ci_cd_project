@@ -3,8 +3,7 @@ on:
     branches:
       - main
 
-name: PDF Downloader
-
+name: ci cd project
 jobs:
   build:
     name: Build and Release new apk
