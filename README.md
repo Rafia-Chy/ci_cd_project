@@ -1,7 +1,6 @@
 # ci_cd_project
 
-A new Flutter project. Test
-
+A new Flutter project. 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
