@@ -31,7 +31,7 @@ channel: 'stable'
 - run: echo $KEYSTORE | base64 -di >  ${{secrets.KEY_PATH}}
 - run: flutter clean
 - run: flutter pub get
-- run: flutter build apk -t lib/main.dart
+- run: flutter build apk -t lib/main_prod.dart --flavor=prod  --split-per-abi
 
 - name: Upload Android Artifact
 uses: actions/upload-artifact@v2.3.1
